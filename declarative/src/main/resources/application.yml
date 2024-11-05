@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springsecurity
+  r2dbc:
+    username: root
+    password: root@123
+    url: r2dbc:mariadb://localhost:3306/springsecurity
+  sql:
+    init:
+      mode: always
+      continue-on-error: true
+jwt:
+  secret:
+    key: /x8DMvXvVj/iT6CUM4N7yBhYOg/Tmz4xx1ML1WUmSIo=
